@@ -38,7 +38,7 @@
   <script>
     function deployToAzure() {
       // Use your merged ARM template URL
-      const templateUrl = encodeURIComponent("https://raw.githubusercontent.com/prateekbansalbyparallo/parallo-ces-offering/refs/heads/main/arm-templates/sub-ces-foundation.json");
+      const templateUrl = encodeURIComponent("https://raw.githubusercontent.com/parallo-devops/parallo-ces-offering/refs/heads/main/arm-templates/sub-ces-foundation.json");
       const deployUrl = `https://portal.azure.com/#create/Microsoft.Template/uri/${templateUrl}`;
       window.open(deployUrl, "_blank");
     }
